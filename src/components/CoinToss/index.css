@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-cont {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 100vh;
+}
+.content-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 50px;
+}
+.main-head {
+  color: #a35200;
+  font-family: 'Roboto';
+}
+.img {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+.btn {
+  color: #a35200;
+  font-family: 'Roboto';
+  background-color: #f9d423;
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.para {
+  margin-right: 20px;
+}
